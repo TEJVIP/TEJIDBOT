@@ -1,0 +1,28 @@
+{
+    "name": "TEJ ID BOT",
+    "description": "A Simple Bot To Fetch Telegram Channel ID",
+    "keywords": [
+        "Telegram",
+        "Bot",
+        "Channel"
+    ],
+    "logo": "https://telegra.ph/file/125482e17e502f879ba3d.jpg",
+    "repository": "https://github.com/tejvip/tejidbot",
+    "success_url": "/",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Get Bot Token From @BotFather"
+        },
+        "START_MESSAGE": {
+            "description": "A Start Message For Your Bot. Add /get Command"
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
+
